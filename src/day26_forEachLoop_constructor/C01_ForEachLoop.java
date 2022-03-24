@@ -14,10 +14,13 @@ public class C01_ForEachLoop {
 
         // for-each loop çalıştırmak için hedef bir collection vermeliyiz
 
-        for (int i: arr) {
+        for (int i : arr) {
             System.out.print(i + " ");
         }
 
+        // avantajı: index, başlangıç deperi, bitiş değeri gibi detaylarla
+        // uğraşmamıza gerek kalmadan collections'dan tüm elementleri bize getirir
+        // dezavantajları: index'e bağlı bir işlem yapamayız
 
 
     }
