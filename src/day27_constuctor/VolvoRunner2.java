@@ -11,5 +11,8 @@ public class VolvoRunner2 {
         System.out.println(v1.toString1()); // bunu yapmaya gerek yok aslında
         System.out.println(v1); // yapmamız yeterli toString çalışır bu şekilde
 
+        Volvo v2 = new Volvo("XC90", true, 2021, "Elektrikli");
+        System.out.println(v2);
+
     }
 }
