@@ -4,9 +4,8 @@ public class ARunner {
 
     public static void main(String[] args) {
 
-        A person1 = new A("Ayberk", "Gürfidan", 32, 351384);
-        System.out.println(person1);
-
+        A obj1 = new A("ayberk", "gürfidan", 56, 31384635);
+        System.out.println(obj1);
 
 
     }
