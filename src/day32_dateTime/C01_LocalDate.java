@@ -31,7 +31,8 @@ public class C01_LocalDate {
 
         // is ile başlayan methodlar true/false döndürür
         System.out.println(LocalDate.now().isLeapYear()); // false artık yıl mı diye sorguladık
-        System.out.println(trh.isAfter(baskaTrh)); // true yani bugünün tarihi doğum tarihimden sonra
+        System.out.println(trh.isAfter(baskaTrh)); // true yani bugünün tarihi doğum tarihimden sonraaa
+        System.out.println(trh.isAfter(baskaTrh));
 
 
     }
