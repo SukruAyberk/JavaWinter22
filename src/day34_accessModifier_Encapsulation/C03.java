@@ -11,6 +11,9 @@ public class C03 {
         return sayi;
     }
 
+    public void setSayi(int sayi) {
+        this.sayi = sayi;
+    }
 
     public String getStr() {
         return str;
