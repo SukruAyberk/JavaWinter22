@@ -18,6 +18,7 @@ public class DenemeChild extends C01 {
         // başka paketten class ismi yazarak erişebildik
         C01.aileyeOzel = 25;
 
+
     }
 
 }
