@@ -2,7 +2,7 @@ package day_39overriding;
 
 public class OverridingChild extends OverridingParents {
 
-    public static void method1() {
+    public void method1() {
         System.out.println("Child class method1");
     }
 
@@ -39,8 +39,7 @@ public class OverridingChild extends OverridingParents {
 
         OverridingParents obj2 = new OverridingChild();
         obj2.method2(); // Parent class method2
-        obj2.method1(); // Parent class method1 ama child olması lazım?
-
+        obj2.method1(); // Child class method1
 
 
     }
