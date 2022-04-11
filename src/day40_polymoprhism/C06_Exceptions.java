@@ -1,4 +1,4 @@
-package day_40polymoprhism;
+package day40_polymoprhism;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
@@ -21,16 +21,17 @@ public class C06_Exceptions {
             System.out.print("Bir sayı girin: ");
             try {
                 sayi = scan.nextInt();
+                toplam += sayi;
             } catch (InputMismatchException e) {
-                // e.printStackTrace();
-                break;
+                String hataliGiris = scan.next();
+                if (hataliGiris.equalsIgnoreCase("q")) {
+                    System.out.println("Girdiğiniz sayıların toplamı: " + toplam);
+                    break;
+                } else {
+                    System.out.println("Hatalı giriş yaptınız, bitirmek için q'ya bas.");
+                }
             }
-            toplam += sayi;
-
         } while (toplam < 500);
         System.out.println("Toplam = " + toplam);
-
     }
-
-
 }

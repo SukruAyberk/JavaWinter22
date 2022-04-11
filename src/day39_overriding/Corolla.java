@@ -1,4 +1,4 @@
-package day_39overriding;
+package day39_overriding;
 
 public class Corolla extends Toyota {
 

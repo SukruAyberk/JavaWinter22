@@ -1,4 +1,4 @@
-package day_40polymoprhism;
+package day40_polymoprhism;
 
 public class C01 {
 
