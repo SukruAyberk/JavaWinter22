@@ -3,7 +3,7 @@ package day51_maps;
 import java.util.HashMap;
 import java.util.Map;
 
-public class V01_KullanilanHarfSayisiniBulma {
+public class C01_KullanilanHarfSayisiniBulma {
 
     /*
         Verilen bir String’deki harfleri ve harflerin kacar kez kullanildigini return eden bir method
