@@ -40,7 +40,7 @@ public class C03_MapMethodlari {
         myMap.compute("H", (k, v) -> (2 * v + 5));
         System.out.println(myMap); // {A=20, H=11, K=5}
 
-        //jdk11'e geçildi
+        //jdk11'e geçildiiiiii
 
     }
 }
